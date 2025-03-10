@@ -1,0 +1,37 @@
+# Git
+.git
+.gitignore
+
+# Python virtual environment
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+
+# Database files (these will be mounted as volumes)
+*.db
+
+# IDE files
+.idea
+.vscode
+*.swp
+*.swo
+
+# Downloads folder (will be mounted as volume)
+downloads/
+
+# Docker files
+Dockerfile
+docker-compose.yml
+
+# Miscellaneous
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
